@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template autoinsert="true" context="javaScript" deleted="false" description="Comment for global namespaces in Jasmine" enabled="true" name="xsunit-comment-global">/* global jasmine, describe, beforeEach, afterEach, beforeOnce, afterOnce, it, xit, expect */
+	</template>
+	<template autoinsert="true" context="javaScript" deleted="false" description="Empty describe (test suit)" enabled="true" name="xsunit-describe-empty">describe(&quot;${newName}&quot;, function() {
+
+});
+	</template>
+	<template autoinsert="true" context="javaScript" deleted="false" description="Expect (empty)" enabled="true" name="xsunit-expect">expect().
+	</template>
+	<template autoinsert="true" context="javaScript" deleted="false" description="Spec - it" enabled="true" name="xsunit-it">it(&quot;deve&quot;, function() {
+		    expect(1).toBe(1);
+		});
+	</template>
+	<template autoinsert="true" context="javaScript" deleted="false" description="beforeOnce, afterOnce, beforeEach, afterEach" enabled="true" name="xsunit-setup-teardown">beforeOnce(function() {
+
+});
+
+afterOnce(function() {
+
+});
+
+beforeEach(function() {
+
+});
+
+afterEach(function() {
+
+});
+	</template>
+	<template autoinsert="true" context="javaScript" deleted="false" description="Add Tags" enabled="true" name="xsunit-tag-add">.addTags([jasmine.tags.tagName]);
+	</template>
+	<template autoinsert="true" context="javaScript" deleted="false" description="Tag Name" enabled="true" name="xsunit-tag-name">jasmine.tags.tagName
+	</template>
+	<template autoinsert="true" context="javaScript" deleted="false" description="New Tag" enabled="true" name="xsunit-tag-new">jasmine.tags.newTag = &quot;newTag&quot;;
+	</template>
+	<template autoinsert="true" context="javaScript" deleted="false" description="Empty xdescribe (pending test suit)" enabled="true" name="xsunit-xdescribe-empty">xdescribe(&quot;${newName}&quot;, function() {
+
+});
+	</template>
+	<template autoinsert="true" context="javaScript" deleted="false" description="Pending spec - xit" enabled="true" name="xsunit-xit">xit(&quot;deve&quot;, function() {
+		    expect(1).toBe(1);
+		});
+	</template>
+</templates>
