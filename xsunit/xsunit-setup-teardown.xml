@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template name="xsunit-setup-teardown" description="beforeOnce, afterOnce, beforeEach, afterEach" enabled="true"  autoinsert="true" context="javaScript" deleted="false">
+beforeOnce(function() {
+
+});
+
+afterOnce(function() {
+
+});
+
+beforeEach(function() {
+
+});
+
+afterEach(function() {
+
+});
+	</template>
+</templates>

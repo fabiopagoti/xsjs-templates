@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template name="xs-import-lib-with-var" description="Import XSJS with target variable" enabled="true"  autoinsert="true" context="javaScript" deleted="false">
+var ${newName} = $$.import("${enclosing_package}", "${newName}");
+	</template>
+</templates>
