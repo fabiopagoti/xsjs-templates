@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template name="xsunit-comment-global" description="Comment for global namespaces in Jasmine" enabled="true"  autoinsert="true" context="javaScript" deleted="false">
+/* global jasmine, describe, beforeEach, afterEach, beforeOnce, afterOnce, it, xit, expect */
+	</template>
+
+</templates>

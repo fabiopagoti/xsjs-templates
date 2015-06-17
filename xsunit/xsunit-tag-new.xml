@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template name="xsunit-tag-new" description="New Tag" enabled="true"  autoinsert="true" context="javaScript" deleted="false">
+jasmine.tags.newTag = "newTag";
+	</template>
+</templates>

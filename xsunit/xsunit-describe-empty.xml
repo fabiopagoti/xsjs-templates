@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template name="xsunit-describe-empty" description="Empty describe (test suit)" enabled="true"  autoinsert="true" context="javaScript" deleted="false">
+describe(&quot;${newName}&quot;, function() {
+
+});
+	</template>
+</templates>

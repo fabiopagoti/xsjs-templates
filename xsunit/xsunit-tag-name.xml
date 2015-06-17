@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template name="xsunit-tag-name" description="Tag Name" enabled="true"  autoinsert="true" context="javaScript" deleted="false">
+jasmine.tags.tagName
+	</template>
+</templates>

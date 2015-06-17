@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+	<template autoinsert="true" context="javaScript" deleted="false" description="Pending spec - xit" enabled="true" name="xsunit-xit">xit(&quot;deve&quot;, function() {
+		    expect(1).toBe(1);
+		});
+	</template>
+</templates>
